@@ -13,7 +13,7 @@ const Hero = () => {
     const [isLoading, setIsLoading] = useState(true);
     const [loadedVideos, setLoadedVideos] = useState(0);
 
-    const totalVideos = 4;
+    const totalVideos = 5;
     const nextVideoRef = useRef(null);
 
     const handleVideoLoaded = () => {
@@ -135,7 +135,7 @@ const Hero = () => {
                 </h1>
                 <div className="absolute left-0 top-0 z-40 size-full">
                     <div className="mt-24 px-5 sm:px-10">
-                        <h1 className="special-font hero-heading text-blue-100">redefi<b>n</b>e</h1>
+                        <h1 className="special-font hero-heading text-blue-100">valora<b>n</b>t</h1>
                         <p className='mb-5 max-w-64 font-robert-regular text-blue-100'>
                             Enter the Metagame Layer <br /> Unleash the play Economy
                         </p>
