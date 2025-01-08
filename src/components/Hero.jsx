@@ -16,7 +16,7 @@ const Hero = () => {
   const [loading, setLoading] = useState(true);
   const [loadedVideos, setLoadedVideos] = useState(0);
 
-  const totalVideos = 3;
+  const totalVideos = 4;
   const nextVdRef = useRef(null);
 
   const handleVideoLoad = () => {
@@ -84,8 +84,8 @@ const Hero = () => {
   const videoLinks = [
     "https://ivory-legal-nightingale-433.mypinata.cloud/ipfs/Qmd1477CMP3KoqGQAzRnxpLbbVE81D3ri1PvAnV28qpQ6n",
     "https://ivory-legal-nightingale-433.mypinata.cloud/ipfs/QmW2EqN2WAsWkATJvKgtWtZVRayqUH3XXgAN1cjMxQaRq5",
-    "https://ivory-legal-nightingale-433.mypinata.cloud/ipfs/Qmd1477CMP3KoqGQAzRnxpLbbVE81D3ri1PvAnV28qpQ6n",
-//     // "https://ivory-legal-nightingale-433.mypinata.cloud/ipfs/bafybeicfmsdh3vjlnjgo2mdx3ztuzn3gqduu6d6ysdgo7wwdqhzpdxf26a",
+    "https://ivory-legal-nightingale-433.mypinata.cloud/ipfs/QmSK8ztS8sQJBig7GQNiMSrMy8VcLWo99HgK6ao3W7MHw6",
+    "https://ivory-legal-nightingale-433.mypinata.cloud/ipfs/Qmb2uHd5nDTY1q5cbA9q4G13JmkpHBXUCKUjwqAQEkfPqZ",
   ];
   
   const getVideoSrc = (index) => videoLinks[index - 1];
